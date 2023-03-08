@@ -1,3 +1,3 @@
 # kokoa-clone-2023 update
 
-CSS got so much better;
+html & CSS ars so much love
