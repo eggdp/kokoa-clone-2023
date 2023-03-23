@@ -1,5 +1,5 @@
 .user-component{
-    justify-content: space-between;
+    justify-content: space-between;   
 }
 .user-component,
 .user-component__column:first-child{
@@ -44,11 +44,4 @@
 .user-component__time{
     display: block;
     margin-bottom: 10px;
-    align-items: flex-end;
-}
-.test{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-end;
 }
