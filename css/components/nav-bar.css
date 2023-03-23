@@ -13,7 +13,7 @@
 }
 .nav__link{
     position: relative;
-    color: inherit;
+    color: #2e363e;
 }
 .nav__notification{
     background-color: red;
