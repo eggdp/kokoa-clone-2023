@@ -27,12 +27,12 @@
 
     <header class="alt-header">
         <div class="alt-header__column">
-            <a href="more.html">
+            <a href="chats.html">
                 <i class="fas fa-angle-left fa-2x"></i>
             </a>
         </div>
         <div class="alt-header__column">
-            <h1 class="alt-header__title">test</h1>
+            <h1 class="alt-header__title">karina</h1>
         </div>
         <div class="alt-header__column">
             <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
@@ -41,32 +41,42 @@
     </header>
 
 
-    <main class="main-screen">
-        <ul class="settings-list">
-            <li class="settings__setting">
-                <div class="setting__setting-column">
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <span>Notices</span>
-                </div>
-                <div class="setting__setting-column"></div>
-            </li>
-            <li class="settings__setting">
-                <div class="setting__setting-column">
-                    <i class="fa-solid fa-flask"></i>
-                    <span>Kakao Lab</span>
-                </div>
-                <div class="setting__setting-column"></div>
-            </li>
-            <li class="settings__setting">
-                <div class="setting__setting-column">
-                    <i class="fa-solid fa-circle-info"></i>
-                    <span>Version</span>
-                </div>
-                <div class="setting__setting-column">Latest Version</div>
-            </li>
-        </ul>
+    <main class="main-screen main-chat">
+       <div class="chat__timestamp">
+            FriDay, Merch 24, 2023
+       </div>
+
+       <div class="message-row">
+        <img src="https://search.pstatic.net/sunny/?src=https%3A%2F%2Fimg.theqoo.net%2Fimg%2FdStbV.jpg&type=a340" />
+        <div class="message-row__content">
+            <span class="message__author">Karina</span>
+            <div class="message__info">
+                <span class="message__bubble">Hi!</span>
+                <span class="message__time">21:27</span>
+            </div>
+        </div>
+       </div>
+       <div class="message-row message-row--own">
+        <div class="message-row__content">
+            <div class="message__info">
+                <span class="message__bubble">What's up!</span>
+                <span class="message__time">21:27</span>
+            </div>
+        </div>
+       </div>
     </main>
 
+    <form class="reply">
+        <div class="reply__cloumn"><i class="fa-regular fa-square-plus"></i></div>
+        <div class="reply__column">
+            <input type="text" placeholder="Write a message... "/>
+            <i class="fa-regular fa-face-smile"></i>
+            <button>
+                <i class="fa-solid fa-arrow-up"></i>
+            </button>
+            
+        </div>
+    </form>
 
     <script src="https://kit.fontawesome.com/08ef948ea5.js" crossorigin="anonymous"></script>
 </body>
